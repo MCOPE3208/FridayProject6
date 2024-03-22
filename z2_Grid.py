@@ -20,4 +20,7 @@ password_label.grid(row=2, column=0)
 password_entry = ttk.Entry(root)
 password_entry.grid(row=2, column=1)
 
+btn1 = ttk.Button(root, text = "Sign Up Now")
+btn1.grid(row=3, column=1)
+
 root.mainloop()
