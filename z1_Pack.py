@@ -7,6 +7,7 @@ root.title("Simple Calculator")
 entry_box = Entry(root, width=50, state='disabled')
 entry_box.pack(padx=10, pady=10)
 entry_box.config(relief="solid")
+root.geometry("350x200")
 
 button_frame1 = Frame(root)
 button_frame1.pack()
