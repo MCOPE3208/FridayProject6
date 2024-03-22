@@ -59,11 +59,11 @@ btnsubtract.pack(side = "left")
 btn0 = ttk.Button(button_frame4, text = 0)
 btn0.pack(side = "left")
 
-btndecimal = ttk.Button(button_frame4, text = ".")
-btndecimal.pack(side = "left")
-
 btnclear = ttk.Button(button_frame4, text = "C")
 btnclear.pack(side = "left")
+
+btnequal = ttk.Button(button_frame4, text = "=")
+btnequal.pack(side = "left")
 
 btnadd = ttk.Button(button_frame4, text = "+")
 btnadd.pack(side = "left")
