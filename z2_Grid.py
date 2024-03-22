@@ -11,4 +11,9 @@ name_label.grid(row=0, column=0)
 name_entry = ttk.Entry(root)
 name_entry.grid(row=0, column=1)
 
+email_label = ttk.Label(root, text="Email:")
+email_label.grid(row=1, column=0)
+email_entry = ttk.Entry(root)
+email_entry.grid(row=1, column=1)
+
 root.mainloop()
