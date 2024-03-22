@@ -31,4 +31,16 @@ btn9.pack(side = "left")
 btndivide = ttk.Button(button_frame1, text = "/")
 btndivide.pack(side = "left")
 
+btn4 = ttk.Button(button_frame2, text = 4)
+btn4.pack(side = "left")
+
+btn5 = ttk.Button(button_frame2, text = 5)
+btn5.pack(side = "left")
+
+btn6 = ttk.Button(button_frame2, text = 6)
+btn6.pack(side = "left")
+
+btnmultiply = ttk.Button(button_frame2, text = "x")
+btnmultiply.pack(side = "left")
+
 root.mainloop()
